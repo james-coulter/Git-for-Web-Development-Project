@@ -18,6 +18,7 @@ HTML is a mark up language designed to give web pages structure.
 
 5. Name two tags that have required attributes
     img and a
+
 6. What do we put in the head of our HTML document? 
     Metadata, suchas titles, styles, links, scripts, etc.
 
@@ -38,8 +39,10 @@ HTML is a mark up language designed to give web pages structure.
 
 12. How many times can I use the same class on a page? 
     No limit.
+
 13. How do I get my link to open in a new tab?
     _blank
+
 14. What is the alt attribute used for? 
     Alt provides additional information when the image cannot be viewed. 
     A good example of this would be slow internet connection, or a user using a screen reader.
@@ -74,6 +77,7 @@ HTML is a mark up language designed to give web pages structure.
 22. What is a parent child selector? When would this be useful? 
     A parent child selector is something that is nested within another element. 
     It is good when you are trying to select the direct child of an element. 
+
 23. How do you select all links within a div with the class of sidebar?
     .sidebar a {
 
@@ -128,7 +132,9 @@ HTML is a mark up language designed to give web pages structure.
     -> git push -u origin <firstName-lastName> -> New Pull request -> Change based repo to forked -> add TL to reviewers
     -> *Note* We shouldn't merge our own pull requests | TL will merge after review
 
-Stretch Questions
+-----------------------------------------------------------------------------------------------------------------------------
+
+*Stretch Questions*
 
 1. What is the difference between an inline element and a block element?
     Block elements are described to be "structural", while inline is text-based. 
@@ -142,6 +148,7 @@ Stretch Questions
 
 
 3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    Padding
 
 4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     Block: <p> | <h1> | <li>
@@ -153,3 +160,5 @@ Stretch Questions
     It uses (from outermost) margin, border, padding, and then the content.  
     It uses all of these elements to stylize and position information on the page.
     A fix for the complexity of Box Model is to use Flex Box.
+
+-----------------------------------------------------------------------------------------------------------------------------
